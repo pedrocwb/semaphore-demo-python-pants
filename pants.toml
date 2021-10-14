@@ -1,3 +1,12 @@
 [GLOBAL]
 pants_version = "2.7.0"
-backend_packages = ["pants.backend.python"]
+
+
+backend_packages = [
+    "pants.backend.python",
+    "pants.backend.python.lint.black",
+    "pants.backend.python.lint.docformatter",
+    "pants.backend.python.lint.flake8",
+    "pants.backend.python.lint.pylint",
+    "pants.backend.python.typecheck.mypy"
+]
