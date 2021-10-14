@@ -6,7 +6,7 @@ from commons.string_utils import string_concat
 
 def message():
     """returns 'Hi world'."""
-    return string_concat("Hi", " world")
+    return string_concat("Hi", " strange", " world")
 
 
 def print_message():
